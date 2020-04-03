@@ -12,3 +12,7 @@ await doc.useServiceAccountAuth(require('./service_accounts_credentials.json'));
 ## How it works
 
 The index.js is a script that when executed will access a sheet with the specific ID - see line 8 in the index.js file if you want to change it, but the script might work if the sheet is is another template than the original one. 
+
+```
+const doc = new GoogleSpreadsheet('1WAbcyMZGSAxTot9RrJEDL8IcgfzdhtvoD8GObm-c-gU');
+```
