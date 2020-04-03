@@ -24,3 +24,7 @@ npm install
 ```
 
 Then, run npm start to let the script run.
+
+```
+npm start
+```
