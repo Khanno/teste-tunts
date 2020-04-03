@@ -16,3 +16,11 @@ The index.js is a script that when executed will access a sheet with the specifi
 ```
 const doc = new GoogleSpreadsheet('1WAbcyMZGSAxTot9RrJEDL8IcgfzdhtvoD8GObm-c-gU');
 ```
+
+First you will need the dependecies, just run the following command in the terminal to download them.
+
+```
+npm install
+```
+
+Then, run npm start to let the script run.
