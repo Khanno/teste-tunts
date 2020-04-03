@@ -5,7 +5,9 @@ The JSON file must have 'service_accounts_credentials' as its name. And must be 
 
 If you want just to change the line where the file is located, please refer to the line 15 in the index.js file.
 
+```
 await doc.useServiceAccountAuth(require('./service_accounts_credentials.json'));
+```
 
 ## How it works
 
