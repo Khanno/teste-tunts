@@ -1,1 +1,12 @@
-# teste-tunts
+# README to configurate the JSON file
+
+## Name and Localization
+The JSON file must have 'service_accounts_credentials' as its name. And must be at the source folder with the index.js or it won't work.
+
+If you want just to change the line where the file is located, please refer to the line 15 in the index.js file.
+
+await doc.useServiceAccountAuth(require('./service_accounts_credentials.json'));
+
+## How it works
+
+The index.js is a script that when executed will access a sheet with the specific ID - see line 8 in the index.js file if you want to change it, but the script might work if the sheet is is another template than the original one. 
